@@ -1,0 +1,60 @@
+{
+  "seo_title": "Snippet form palette for macOS",
+  "seo_description": "Free, open-source macOS menu bar app. Press Option+Space, fill in a small form of variables, and paste finished text. No account, no server, no network.",
+  "hero_title_line1": "Templates with blanks.",
+  "hero_title_accent": "Filled in seconds.",
+  "hero_sub": "Press Option+Space to open a floating palette, pick a template, fill in its fields, and paste the finished text into the app you were using.",
+  "features_title": "Built for repeatable text.",
+  "features_sub": "Customer replies, meeting notes, and commit messages get a form instead of find-and-replace.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey palette",
+      "desc": "Option+Space opens a centered floating panel with a searchable list sorted by recent use. The hotkey can be re-recorded in Settings."
+    },
+    {
+      "icon": "sliders",
+      "title": "Typed placeholders",
+      "desc": "Write {{name}}, defaults, multi-line text, dates with day offsets, or choice lists. Each placeholder becomes the right input, with a live preview beside it."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Paste or copy",
+      "desc": "Command+Return pastes into the previous app and Option+Return only copies. You can optionally restore your original clipboard afterward."
+    },
+    {
+      "icon": "clock",
+      "title": "Built-in variables",
+      "desc": "Use {{@date}}, {{@date(-1)}}, {{@time}}, and {{@clipboard}} without typing anything. Date and time formats are configurable."
+    },
+    {
+      "icon": "text",
+      "title": "Template manager",
+      "desc": "Edit titles, tags, and bodies, insert placeholders from a menu, and check a parse report that flags unclosed braces or empty choices."
+    },
+    {
+      "icon": "lock",
+      "title": "Local and private",
+      "desc": "Templates live in a JSON file on your Mac, with import and export. There is no account, server, or network access."
+    }
+  ],
+  "permissions_step": "To let the app paste for you, grant Accessibility access in System Settings > Privacy & Security > Accessibility; without it, text is copied to the clipboard instead.",
+  "faq": [
+    {
+      "q": "Is SnippetFormPalette free and open source?",
+      "a": "Yes. It is free to use and released under the MIT license, and the full source is on GitHub. If it saves you time, there is an optional Support button in the app."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility, so it can press Command+V in the app you were using. If you decline, the finished text is copied to the clipboard and a notice is shown. Launch at login uses a standard macOS login item and needs no prompt."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Templates are saved as JSON at ~/Library/Application Support/SnippetFormPalette/templates.json, and settings are kept in UserDefaults. Nothing is sent anywhere, and you can export your templates to a JSON file at any time."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free open-source project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."
+    }
+  ]
+}

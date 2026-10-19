@@ -1,5 +1,7 @@
 # SnippetFormPalette
 
+**🌐 Website:** [turhe123.github.io/snippet-form-palette](https://turhe123.github.io/snippet-form-palette/)
+
 Summon a snippet palette by hotkey, fill in a small form of variables, and paste the finished text.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -34,7 +36,21 @@ SnippetFormPalette is a free, open-source, 100% native, backend-free alternative
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-fill-in-form.png" alt="Palette form for a Customer reply template with a live text preview" width="720"></p>
+
+<p align="center"><em>Fill in a template&#x27;s fields on the left and watch the finished text render live on the right, then press ⌘↩ to paste it.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-template-search.png" alt="Floating palette listing searchable templates with tags" width="560"></p>
+
+<p align="center"><em>Press Option+Space to open a floating palette with your templates, sorted by most recent use and labeled with tags.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-template-manager.png" alt="Template manager window with body editor and parse report" width="560"></p>
+
+<p align="center"><em>Edit templates in the manager, which has an Insert Placeholder menu and a parse report of the fields it detects.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-settings.png" alt="Settings window with hotkey, formats and toggles" width="560"></p>
+
+<p align="center"><em>Settings let you change the hotkey, date and time formats, and paste behavior, and turn on launch at login.</em></p>
 
 ## Install
 

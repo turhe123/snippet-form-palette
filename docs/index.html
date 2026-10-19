@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SnippetFormPalette — Snippet form palette for macOS</title>
+  <meta name="description" content="Free, open-source macOS menu bar app. Press Option+Space, fill in a small form of variables, and paste finished text. No account, no server, no network.">
+  <meta name="theme-color" content="#0b0b10">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SnippetFormPalette — Snippet form palette for macOS">
+  <meta property="og:description" content="Free, open-source macOS menu bar app. Press Option+Space, fill in a small form of variables, and paste finished text. No account, no server, no network.">
+  <meta property="og:url" content="https://turhe123.github.io/snippet-form-palette/">
+  <meta property="og:image" content="https://turhe123.github.io/snippet-form-palette/screenshots/01-fill-in-form.png">
+  <meta property="og:site_name" content="SnippetFormPalette">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SnippetFormPalette — Snippet form palette for macOS">
+  <meta name="twitter:description" content="Free, open-source macOS menu bar app. Press Option+Space, fill in a small form of variables, and paste finished text. No account, no server, no network.">
+  <meta name="twitter:image" content="https://turhe123.github.io/snippet-form-palette/screenshots/01-fill-in-form.png">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>window.APP_CONFIG = { RELEASE_API_URL: "https://api.github.com/repos/turhe123/snippet-form-palette/releases/latest", ASSET_NAME: "SnippetFormPalette-macOS.zip" };</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--violet"></div>
+    <div class="bg-glow bg-glow--cyan"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#top" aria-label="SnippetFormPalette home">
+        <span class="logo-mark" aria-hidden="true"><img src="assets/icon.png" width="26" height="26" alt="" style="border-radius:7px"></span>
+        <span class="logo-text">SnippetFormPalette</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="https://github.com/turhe123/snippet-form-palette" target="_blank" rel="noopener">GitHub</a></li>
+        <li class="nav-cta"><a class="btn btn--small btn--primary" href="https://github.com/turhe123/snippet-form-palette/releases/latest/download/SnippetFormPalette-macOS.zip" data-download>Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top">
+      <div class="hero-copy">
+        <img class="app-icon-hero reveal" src="assets/icon.png" alt="SnippetFormPalette icon" width="84" height="84">
+        <p class="eyebrow reveal"><span class="eyebrow-dot" aria-hidden="true"></span>Open source · macOS 14+ · Universal binary · Menu Bar Utility</p>
+        <h1 class="hero-title reveal">Templates with blanks.<br><span class="grad-text">Filled in seconds.</span></h1>
+        <p class="hero-sub reveal">Press Option+Space to open a floating palette, pick a template, fill in its fields, and paste the finished text into the app you were using.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn--primary btn--large" href="https://github.com/turhe123/snippet-form-palette/releases/latest/download/SnippetFormPalette-macOS.zip" data-download>
+            <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18"><path fill="currentColor" d="M10 2a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L9 11.6V3a1 1 0 0 1 1-1Zm-7 13a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+            Download for macOS
+          </a>
+          <a class="btn btn--ghost btn--large" href="https://github.com/turhe123/snippet-form-palette" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+            View on GitHub
+          </a>
+        </div>
+        <p class="hero-hint reveal">Free &amp; MIT licensed · Apple Silicon &amp; Intel · <span data-version>Latest release</span></p>
+      </div>
+      <div class="hero-shot reveal">
+        <img src="screenshots/01-fill-in-form.png" alt="Palette form for a Customer reply template with a live text preview" loading="eager">
+      </div>
+    </section>
+
+    <section class="section container" id="features">
+      <div class="section-head reveal">
+        <p class="section-kicker">Features</p>
+        <h2 class="section-title">Built for repeatable text.</h2>
+        <p class="section-sub">Customer replies, meeting notes, and commit messages get a form instead of find-and-replace.</p>
+      </div>
+      <div class="features">
+        <article class="card reveal">
+          <div class="card-icon card-icon--violet"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="3" y="6" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 10h.01M11 10h.01M15 10h.01M7 14h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Global hotkey palette</h3>
+          <p>Option+Space opens a centered floating panel with a searchable list sorted by recent use. The hotkey can be re-recorded in Settings.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--cyan"><svg viewBox="0 0 24 24" width="22" height="22"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h10m4 0h2M4 12h3m4 0h9M4 17h12m4 0h0"/><circle cx="16" cy="7" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="9" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="17" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
+          <h3>Typed placeholders</h3>
+          <p>Write {{name}}, defaults, multi-line text, dates with day offsets, or choice lists. Each placeholder becomes the right input, with a live preview beside it.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--grad"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="6" y="5" width="12" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="9" y="3" width="6" height="4" rx="1" fill="currentColor"/><path d="M9 12h6M9 16h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Paste or copy</h3>
+          <p>Command+Return pastes into the previous app and Option+Return only copies. You can optionally restore your original clipboard afterward.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--violet"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 8v4l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Built-in variables</h3>
+          <p>Use {{@date}}, {{@date(-1)}}, {{@time}}, and {{@clipboard}} without typing anything. Date and time formats are configurable.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--cyan"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 6h14M12 6v13M8 19h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <h3>Template manager</h3>
+          <p>Edit titles, tags, and bodies, insert placeholders from a menu, and check a parse report that flags unclosed braces or empty choices.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon card-icon--grad"><svg viewBox="0 0 24 24" width="22" height="22"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div>
+          <h3>Local and private</h3>
+          <p>Templates live in a JSON file on your Mac, with import and export. There is no account, server, or network access.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="screenshots">
+      <div class="section-head reveal">
+        <p class="section-kicker">Screenshots</p>
+        <h2 class="section-title">See it in action.</h2>
+      </div>
+      <div class="gallery reveal">
+        <figure><img src="screenshots/01-fill-in-form.png" alt="Palette form for a Customer reply template with a live text preview" loading="lazy"><figcaption>Fill in a template&#x27;s fields on the left and watch the finished text render live on the right, then press ⌘↩ to paste it.</figcaption></figure>
+        <figure><img src="screenshots/02-template-search.png" alt="Floating palette listing searchable templates with tags" loading="lazy"><figcaption>Press Option+Space to open a floating palette with your templates, sorted by most recent use and labeled with tags.</figcaption></figure>
+        <figure><img src="screenshots/03-template-manager.png" alt="Template manager window with body editor and parse report" loading="lazy"><figcaption>Edit templates in the manager, which has an Insert Placeholder menu and a parse report of the fields it detects.</figcaption></figure>
+        <figure><img src="screenshots/04-settings.png" alt="Settings window with hotkey, formats and toggles" loading="lazy"><figcaption>Settings let you change the hotkey, date and time formats, and paste behavior, and turn on launch at login.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="install">
+      <div class="section-head reveal">
+        <p class="section-kicker">Install</p>
+        <h2 class="section-title">Up and running in a minute.</h2>
+        <p class="section-sub">SnippetFormPalette is open source and not notarized with a paid Apple Developer ID, so macOS needs one extra step the first time.</p>
+      </div>
+      <ol class="steps reveal">
+        <li>Download <strong>SnippetFormPalette-macOS.zip</strong> and unzip it.</li>
+        <li>Move <strong>SnippetFormPalette.app</strong> to your <strong>Applications</strong> folder.</li>
+        <li>Clear the quarantine flag once, then right-click the app and choose <strong>Open</strong>:<pre>xattr -cr /Applications/SnippetFormPalette.app</pre></li>
+        <li>To let the app paste for you, grant Accessibility access in System Settings Privacy Security Accessibility without it, text is copied to the clipboard instead.</li>
+      </ol>
+    </section>
+
+    <section class="section container" id="download">
+      <div class="download-card reveal">
+        <div class="download-glow" aria-hidden="true"></div>
+        <div class="download-copy">
+          <p class="section-kicker">Download</p>
+          <h2 class="section-title">Get SnippetFormPalette for macOS</h2>
+          <p class="section-sub">Free, forever. Built for macOS 14 Sonoma or newer, Apple Silicon and Intel.</p>
+          <div class="download-actions">
+            <a class="btn btn--primary btn--large" href="https://github.com/turhe123/snippet-form-palette/releases/latest/download/SnippetFormPalette-macOS.zip" data-download>
+              <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18"><path fill="currentColor" d="M10 2a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.42L9 11.6V3a1 1 0 0 1 1-1Zm-7 13a1 1 0 0 1 1 1v1h12v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></svg>
+              Download for macOS
+            </a>
+            <a class="btn btn--ghost btn--large" href="https://github.com/turhe123/snippet-form-palette/releases/latest" target="_blank" rel="noopener">All releases</a>
+          </div>
+          <p class="release-meta" data-release-meta>SnippetFormPalette-macOS.zip · GitHub Releases</p>
+          <p class="download-hint">Not notarized: on first launch right-click <strong>SnippetFormPalette.app → Open</strong>.</p>
+        </div>
+        <div class="download-aside">
+          <div class="app-tile" aria-hidden="true"><img src="assets/icon.png" width="72" height="72" alt="" style="border-radius:18px"></div>
+          <ul class="download-facts">
+            <li>macOS 14 Sonoma+</li>
+            <li>Universal (Apple Silicon + Intel)</li>
+            <li>MIT licensed · open source</li>
+            <li>No ads, no accounts, no telemetry</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="faq">
+      <div class="section-head reveal">
+        <p class="section-kicker">FAQ</p>
+        <h2 class="section-title">Questions, answered.</h2>
+      </div>
+      <div class="faq reveal">
+        <details class="faq-item" open><summary>Is SnippetFormPalette free and open source?</summary><div class="faq-body"><p>Yes. It is free to use and released under the MIT license, and the full source is on GitHub. If it saves you time, there is an optional Support button in the app.</p></div></details>
+        <details class="faq-item"><summary>What permissions does it need?</summary><div class="faq-body"><p>Accessibility, so it can press Command+V in the app you were using. If you decline, the finished text is copied to the clipboard and a notice is shown. Launch at login uses a standard macOS login item and needs no prompt.</p></div></details>
+        <details class="faq-item"><summary>Where is my data stored?</summary><div class="faq-body"><p>Templates are saved as JSON at ~/Library/Application Support/SnippetFormPalette/templates.json, and settings are kept in UserDefaults. Nothing is sent anywhere, and you can export your templates to a JSON file at any time.</p></div></details>
+        <details class="faq-item"><summary>Why isn&#x27;t the app notarized?</summary><div class="faq-body"><p>Notarization requires a paid Apple Developer account, and this is a free open-source project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode.</p></div></details>
+      </div>
+    </section>
+
+    <section class="section container section--narrow" id="support">
+      <div class="support-card reveal">
+        <p class="section-kicker">Support ❤️</p>
+        <h2 class="section-title">Built by one person, given away for free.</h2>
+        <p>SnippetFormPalette is a free, open-source alternative to paid utilities. If it earns a spot on your Mac, a coffee keeps the updates coming.</p>
+        <a class="btn btn--kofi btn--large" href="https://ko-fi.com/leodavidai" target="_blank" rel="noopener">☕ Support Or on Ko-fi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Or Davidai Bachar · MIT License</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/turhe123/snippet-form-palette" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://ko-fi.com/leodavidai" target="_blank" rel="noopener">Ko-fi</a></li>
+        <li><a href="https://github.com/turhe123/snippet-form-palette/issues" target="_blank" rel="noopener">Report a bug</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

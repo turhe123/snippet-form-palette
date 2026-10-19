@@ -1,0 +1,6 @@
+[
+  {"file":"01-fill-in-form.png","caption":"Fill in a template's fields on the left and watch the finished text render live on the right, then press ⌘↩ to paste it.","alt":"Palette form for a Customer reply template with a live text preview"},
+  {"file":"02-template-search.png","caption":"Press Option+Space to open a floating palette with your templates, sorted by most recent use and labeled with tags.","alt":"Floating palette listing searchable templates with tags"},
+  {"file":"03-template-manager.png","caption":"Edit templates in the manager, which has an Insert Placeholder menu and a parse report of the fields it detects.","alt":"Template manager window with body editor and parse report"},
+  {"file":"04-settings.png","caption":"Settings let you change the hotkey, date and time formats, and paste behavior, and turn on launch at login.","alt":"Settings window with hotkey, formats and toggles"}
+]
